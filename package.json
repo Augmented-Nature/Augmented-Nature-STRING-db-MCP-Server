@@ -1,0 +1,55 @@
+{
+  "name": "string-server",
+  "version": "1.0.0",
+  "description": "A comprehensive Model Context Protocol server for accessing STRING protein interaction database with network analysis, functional enrichment, and comparative genomics tools",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "string",
+    "protein-interactions",
+    "network-biology",
+    "functional-enrichment",
+    "systems-biology",
+    "protein-networks",
+    "pathway-analysis",
+    "comparative-genomics",
+    "homology",
+    "bioinformatics",
+    "molecular-biology",
+    "protein-function",
+    "gene-ontology",
+    "kegg-pathways",
+    "network-analysis",
+    "protein-complexes",
+    "interaction-partners",
+    "cross-species"
+  ],
+  "author": "Augmented Nature",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "string-server": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augmented-nature/string-mcp-server"
+  },
+  "homepage": "https://github.com/augmented-nature/string-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/augmented-nature/string-mcp-server/issues"
+  }
+}
