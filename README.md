@@ -1,3 +1,4 @@
+![STRING DB MCP Server Logo](string-db-mcp-server-logo.png)
 # STRING MCP Server
 
 A comprehensive Model Context Protocol (MCP) server for accessing the STRING protein interaction database. This server provides powerful tools for protein network analysis, functional enrichment, and comparative genomics through the STRING API.
