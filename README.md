@@ -176,3 +176,13 @@ This project is developed by **Augmented Nature**
 🌐 Website: [augmentednature.ai](https://augmentednature.ai)
 
 **About STRING Database**: STRING is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations; they stem from computational prediction, from knowledge transfer between organisms, and from interactions aggregated from other (primary) databases.
+
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+```bibtex @misc{stringdbmcp2025, 
+author = {Moudather Chelbi},
+title = {STRING DB MCP Server},
+year = {2025},
+howpublished = {https://github.com/Augmented-Nature/STRING-db-MCP-Server},
+note = {Accessed: 2025-06-29}
